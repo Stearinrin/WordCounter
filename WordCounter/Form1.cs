@@ -83,6 +83,7 @@ namespace WordCounter
         {
             checkBox1.Enabled = true;
             checkBox2.Enabled = true;
+            label2.Text = "文字数";
             TextBox1_TextChanged(sender, e);
         }
 
@@ -90,6 +91,7 @@ namespace WordCounter
         {
             checkBox1.Enabled = false;
             checkBox2.Enabled = false;
+            label2.Text = "単語数";
             TextBox1_TextChanged(sender, e);
         }
 

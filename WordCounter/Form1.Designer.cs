@@ -101,6 +101,7 @@
             this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(112, 23);
             this.textBox2.TabIndex = 4;
+            this.textBox2.Text = "0";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label2
