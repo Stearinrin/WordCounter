@@ -53,14 +53,13 @@ namespace WordCounter
             wordCount = 0;
             textObj = textBox1.Text;
 
-            if (checkBox2.Checked)
-            {
-                wordCount += textObj.Length - textObj.Replace("\t", "").Length;
-                
-            }
-
             if (radioButton1.Checked)
             {
+                if (checkBox2.Checked)
+                {
+                    wordCount += textObj.Length - textObj.Replace("\t", "").Length;
+                }
+
                 textObj  = textObj.Replace(separatingStrings, "").Trim();
                 
                 if (!checkBox1.Checked)
